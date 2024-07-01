@@ -31,16 +31,16 @@ This repository contains Terraform code to set up a specified AWS infrastructure
 ├── userdata.sh
 └── README.md
 
-main.tf
+main.tf: 
 This file contains the main Terraform code for setting up the VPC, subnets, internet gateway, NAT gateway, security groups, EC2 auto scaling group, and Route 53 record.
 
-variables.tf
+variables.tf:
 This file contains variable definitions used in the Terraform configuration.
 
-outputs.tf
+outputs.tf: 
 This file contains the output definitions to display useful information after the infrastructure is created.
 
-userdata.sh
+userdata.sh: 
 This file contains the user data script to install and start NGINX on the EC2 instances.
 
 Getting Started
